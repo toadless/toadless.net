@@ -3,7 +3,7 @@ import React from "react"
 import {
   /*Router must be imported for its functionality to work, even though the 
   Router component wraps the parent App component.*/
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
