@@ -8,6 +8,9 @@ import App from "./App"
 // Own imports - styles
 import theme from "./styles/theme.js"
 
+// Own imports - service worker
+import serviceWorker from "./serviceWorker"
+
 // Material ui imports
 import {
     ThemeProvider
@@ -19,3 +22,5 @@ ReactDOM.render(
   </ThemeProvider>,
   document.getElementById("root")
 )
+
+serviceWorker.register();
