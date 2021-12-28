@@ -9,7 +9,7 @@ import App from "./App"
 import theme from "./styles/theme.js"
 
 // Own imports - service worker
-import serviceWorker from "./serviceWorker"
+import * as serviceWorker from "./serviceWorker"
 
 // Material ui imports
 import {
