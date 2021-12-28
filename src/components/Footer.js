@@ -6,7 +6,7 @@ import {
 
 // Own imports
 
-// Component
+// Component   
 const Footer = props => {
 
     const styles = props.styles;
