@@ -15,7 +15,7 @@ const Main = props => {
 
             <p className={styles.text}>
                 Toadless
-                <div className={styles.blink}>i</div>
+                <div className={styles.blink}>‌ ‌ </div>
             </p>
         </div>
     )
