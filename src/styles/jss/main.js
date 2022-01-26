@@ -40,7 +40,9 @@ const mainStyles = {
         WebkitUserSelect: "none",
         KhtmlUserSelect: "none",
         MozUserSelect: "none",
-        msUserSelect: "none"
+        msUserSelect: "none",
+
+        borderRadius: "50%",
     },
 
     text: {
