@@ -11,7 +11,7 @@ const Main = props => {
     // Component render JSX
     return (
         <div className={styles.container}>
-            <img src="/assets/logo.png" className={styles.logo} alt="logo" />
+            <img src="/assets/logo.jpeg" className={styles.logo} alt="logo" />
 
             <p className={styles.text}>
                 Toadless

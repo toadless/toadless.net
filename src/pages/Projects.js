@@ -8,6 +8,7 @@ import React from "react"
         faDragon,
         faFrog,
         faGlobe,
+        faMusic,
     } from '@fortawesome/free-solid-svg-icons'
 
 // Component
@@ -18,11 +19,11 @@ const Projects = props => {
     // Component render JSX
     return (
         <div className={styles.container}>
-            <img src="/assets/logo.png" className={styles.logo} alt="logo" />
+            <img src="/assets/logo.jpeg" className={styles.logo} alt="logo" />
 
             <p className={styles.text}>
                 Projects
-                <div className={styles.blink}>i</div>
+                <div className={styles.blink}>‌ ‌ </div>
             </p>
 
             <div className={styles.projectsList}>
@@ -32,16 +33,16 @@ const Projects = props => {
                     My Site
                 </li>
 
-                {/* Quack.... */}
-                <li className={styles.projectsName} onClick={() => window.location.href="https://github.com/toadless/quack"}>
-                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faDragon} />
-                    Quack
+                {/* Radio.... */}
+                <li className={styles.projectsName} onClick={() => window.location.href="https://github.com/toadless/radio"}>
+                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faMusic} />
+                    Radio
                 </li>
 
-                {/* Quack Site.... */}
-                <li className={styles.projectsName} onClick={() => window.location.href = "https://github.com/toadless/quack-site"}>
-                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faGlobe} />
-                    Quacks Site
+                {/* Monke */}
+                <li className={styles.projectsName} onClick={() => window.location.href = "https://github.com/toadless/monke-bot"}>
+                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faDragon} />
+                    Monke
                 </li>
             </div>
         </div>
