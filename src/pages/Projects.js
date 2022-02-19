@@ -9,6 +9,8 @@ import React from "react"
         faFrog,
         faGlobe,
         faMusic,
+        faTape,
+        faBook
     } from '@fortawesome/free-solid-svg-icons'
 
 // Component
@@ -32,6 +34,12 @@ const Projects = props => {
                     <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faFrog} />
                     My Site
                 </li>
+                
+                {/* Rich Presence */}
+                <li className={styles.projectsName} onClick={() => window.location.href = "https://github.com/toadless/discord-rpc"}>
+                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faBook} />
+                    Discord RPC
+                </li>
 
                 {/* Radio.... */}
                 <li className={styles.projectsName} onClick={() => window.location.href="https://github.com/toadless/radio"}>
@@ -43,6 +51,12 @@ const Projects = props => {
                 <li className={styles.projectsName} onClick={() => window.location.href = "https://github.com/toadless/monke-bot"}>
                     <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faDragon} />
                     Monke
+                </li>
+
+                {/* Richy Presence */}
+                <li className={styles.projectsName} onClick={() => window.location.href = "https://github.com/toadless/richypresence"}>
+                    <FontAwesomeIcon className={styles.fontAwesomeIcon} icon={faTape} />
+                    Rich Presence
                 </li>
             </div>
         </div>
