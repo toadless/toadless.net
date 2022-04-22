@@ -16,6 +16,7 @@ const Footer = props => {
     // Component render JSX
     return (
         <div className={styles.footer}>
+            <p className={styles.link} onClick={() => window.location.href = "https://status.toadless.net"}>Status</p>
             <p className={styles.link} onClick={() => history.push("/projects")}>Projects</p>
             <p className={styles.link} onClick={() => history.push("/")}>Home</p>
             <p className={styles.credits}>© Toadless 2021</p>

@@ -4,9 +4,6 @@ import {
   /*Router must be imported for its functionality to work, even though the 
   Router component wraps the parent App component.*/
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
 } from "react-router-dom";
 
 // Own imports
